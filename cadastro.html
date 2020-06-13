@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+    
+
+    <title>Execicio 1 Semana 3</title>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="max-width">
+                <a href="http://rbcsistemasti.com.br/exercicio_semana_3/" target="_blank"><img class="alinhaLogo" src="img/home_1.png" ></a>
+                <ul>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="cadastro">
+
+        <div class="max-width borderForm">
+
+           
+            <section >
+                <form id="form" action="http://rbcsistemasti.com.br/exercicio_semana_3/" method="POST" >
+                <div class="max-width">
+                    
+                    <div class="grid-100 p-30">
+                        <div class="grid-100">
+                            <h1>Cadastro</h1>
+                        </div>
+                        <br>
+                        
+                        <div class="grid-50">
+                            <label for="txtNome">Nome</label>
+                            <input type="text" id="txtNome">
+                        </div>
+        
+                        <div class="grid-50">
+                            <label for="txtEmail">E-mail</label>
+                            <input type="text" id="txtEmail">
+                        </div>
+        
+                        <div class="grid-50">
+                            <label for="txtSenha">Senha</label>
+                            <input type="password" id="txtSenha">
+                        </div>
+
+                        
+                        <div class="grid-50">
+                            <label for="txtSenha2">Confirma Senha</label>
+                            <input type="password" id="txtSenha2">
+                        </div>
+                        
+                        
+                        <div class="grid-50">
+                            <label for="slSexo">Sexo</label>
+                            <select name="slSexo" id="slSexo">
+                                <option value="F">Feminino</option>
+                                <option value="M">Masculino</option>
+                            </select>
+                        </div>
+
+        
+                        <div class="grid-50 ">
+                            <label for="dtData">Data de nascimento</label>
+                            <input type="date" id="dtData">
+                        </div>
+
+                        
+        
+                        <div class="grid-100">
+                            <label for="txtArea">Conte sobre você</label>
+                            <textarea name="txtArea" id="txtArea" ></textarea>
+                            </select>
+                        </div>
+                        <br>
+        
+                        <div class="grid-100">
+                            <div class="grid-90 borderPreencha ">
+                                <span id="resNome"><p>- Preencha corretamente seu nome;</p></span>
+                                <span id="resMail"><p>- Informe um e-mail válido;</p></span>
+                                <span id="resNasc"><p>- Informe a data de nascimento;</p></span>
+                            </div>
+                        
+                            <div class="grid-10">
+                                <br>    
+                                <!-- <form action="" id="enviar" onsubmit="return;"> -->
+                                    <input type="submit" class="btn" value="Enviar" id="enviar">
+                                </form>
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                </div>
+               
+            </section>
+
+        </div>
+ 
+    </section>
+
+    <footer>
+
+    </footer>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+    
+</body>
+</html>
