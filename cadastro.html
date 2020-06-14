@@ -41,54 +41,47 @@
                         
                         <div class="grid-50">
                             <label for="txtNome">Nome</label>
-                            <input type="text" id="txtNome">
+                            <input type="text" id="txtNome" name="nome">
                         </div>
         
                         <div class="grid-50">
                             <label for="txtEmail">E-mail</label>
-                            <input type="text" id="txtEmail">
+                            <input type="text" id="txtEmail" name="email">
                         </div>
         
                         <div class="grid-50">
                             <label for="txtSenha">Senha</label>
-                            <input type="password" id="txtSenha">
+                            <input type="password" id="txtSenha" name="password1">
                         </div>
-
                         
                         <div class="grid-50">
                             <label for="txtSenha2">Confirma Senha</label>
-                            <input type="password" id="txtSenha2">
+                            <input type="password" id="txtSenha2" name="password2">
                         </div>
-                        
                         
                         <div class="grid-50">
                             <label for="slSexo">Sexo</label>
-                            <select name="slSexo" id="slSexo">
+                            <select name="slSexo" id="slSexo" name="sexo">
                                 <option value="F">Feminino</option>
                                 <option value="M">Masculino</option>
                             </select>
                         </div>
-
         
                         <div class="grid-50 ">
                             <label for="dtData">Data de nascimento</label>
-                            <input type="date" id="dtData">
+                            <input type="date" id="dtData" name="data">
                         </div>
 
-                        
-        
                         <div class="grid-100">
                             <label for="txtArea">Conte sobre você</label>
-                            <textarea name="txtArea" id="txtArea" ></textarea>
+                            <textarea name="txtArea" id="txtArea" name="areaTexto"></textarea>
                             </select>
                         </div>
                         <br>
         
                         <div class="grid-100">
                             <div class="grid-90 borderPreencha ">
-                                <span id="resNome"><p>- Preencha corretamente seu nome;</p></span>
-                                <span id="resMail"><p>- Informe um e-mail válido;</p></span>
-                                <span id="resNasc"><p>- Informe a data de nascimento;</p></span>
+                                    <span id="mensagens"></span>                            
                             </div>
                         
                             <div class="grid-10">
@@ -98,19 +91,12 @@
                                 </form>
                             </div>
                         </div>
-        
                     </div>
-        
                 </div>
-               
             </section>
-
         </div>
- 
     </section>
-
     <footer>
-
     </footer>
     
     <script type="text/javascript" src="js/script.js"></script>

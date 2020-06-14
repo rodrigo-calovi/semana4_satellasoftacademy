@@ -5,8 +5,6 @@
     box-sizing: border-box;
 }
 
-
-
 h1 {
     font-size: 30px;
 }
@@ -29,7 +27,6 @@ h1 {
     border-style: solid;
     background-color: rgb(236, 234, 234);
 }
-
 
 
 .img_grid {
@@ -97,7 +94,7 @@ section p{
     display: block;
 }
 
-#form input[type="text"], #form input[type="password"], #form select, #form textarea, #dtData {
+#form input[type="text"], #form input[type="password"], #form select, #form textarea, #dtData, input[type="email"] {
     width: 100%;
     padding: 10px;
     border: 2px solid #BDBDBD;
@@ -106,7 +103,7 @@ section p{
     
 }
 
-#form input[type="text"]:focus, #form input[type="password"]:focus, #form input[type="date"]:focus, #form textarea:focus, #dtData:focus  {
+#form input[type="text"]:focus, #form input[type="password"]:focus, #form input[type="date"]:focus, #form textarea:focus, #dtData:focus, input[type="email"]:focus  {
     box-shadow: 0 0 20px #ccc;
 }
 
@@ -159,4 +156,29 @@ section p{
     margin-left: 30px;
     text-align: left;
     
+}
+
+
+
+.erro {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    list-style: none;
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    background-color: rgb(208, 209, 202);
+}
+
+
+
+.correto {
+    color: green;
+    font-weight: bold;
+    list-style: none;
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+    background-color: rgb(203, 233, 32);
 }
